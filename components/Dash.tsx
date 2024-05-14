@@ -10,7 +10,7 @@ function Dash() {
     </select>
   </div>
   <div className="col-span-2 -mx-4 bg-gradient-to-t from-indigo-500 to-blue-500 px-4 py-8 sm:col-span-1 sm:mx-0 sm:rounded-xl sm:py-4">
-    <p className="mb-4 font-medium text-indigo-100">Cases in pipeline</p>
+    <p className="mb-4 font-medium text-indigo-100">Revenue</p>
     <div className="mb-6 flex max-w-xs">
       <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-indigo-100 text-indigo-400 sm:mr-3 sm:mb-0">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-6 w-6">
@@ -24,8 +24,8 @@ function Dash() {
     </div>
     <div className="flex flex-wrap justify-between">
       <div className="flex flex-col items-center px-4 py-1">
-        <p className="text-lg font-medium text-white">232</p>
-        <p className="text-xs font-medium text-indigo-100">Quote</p>
+        <p className="text-lg font-medium text-white">$232</p>
+        <p className="text-xs font-medium text-indigo-100">Expenses</p>
       </div>
       <div className="mb-1 flex flex-col items-center px-4 py-1 sm:mr-1 sm:mb-0">
         <p className="text-lg font-medium text-white">$140</p>

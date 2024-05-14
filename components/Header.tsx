@@ -9,7 +9,7 @@ function Header() {
     <span className="mr-2 w-8">
       <img src="/images/JOJj79gp_Djhwdp_ZOKLL.png" alt="" />
     </span>
-    spline
+    FaAs
   </div>
   </Link>
   <input type="checkbox" className="peer hidden" id="navbar-open" />
@@ -23,9 +23,9 @@ function Header() {
     <Link href={"/orders"} prefetch={false}>
       <li className="lg:mr-12"><p className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Expenses</p></li>
       </Link>
-      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Pricing</a></li>
-      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Contact</a></li>
-      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">FAQ</a>
+      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Income</a></li>
+      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Invoices</a></li>
+      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Budgets</a>
       </li>
     </ul>
     <hr className="mt-4 w-full lg:hidden" />
