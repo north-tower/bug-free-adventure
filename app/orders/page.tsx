@@ -71,7 +71,7 @@ function Orders() {
           </nav>
         </div>
       </div>
-      <div className="w-screen bg-gray-50">
+      <div className="max-w-2xl mx-auto  bg-gray-50">
         <div className="mx-auto  px-2 py-10">
           <div className="mt-4  mx-auto max-w-2xl">
             <div className="flex w-full flex-col items-center justify-between space-y-2 sm:flex-row sm:space-y-0">

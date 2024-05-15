@@ -13,23 +13,20 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
-import Link from 'next/link';
-
-
-function Income() {
-  return(
+function Budget() {
+  return (
     <div>
-       <div className="mx-auto max-w-2xl bg-white">
+ <div className="mx-auto max-w-2xl bg-white">
         <h1 className="mt-5 ml-5 text-2xl font-bold text-gray-900">
-          Income Tracking
+          Budgets
         </h1>
         <div className="bg-white py-2 px-3">
           <nav className="flex flex-wrap gap-4">
           
             <Popover>
-              <PopoverTrigger>Add Income</PopoverTrigger>
+              <PopoverTrigger>Add Budget</PopoverTrigger>
               <PopoverContent>
-              <p className="mt-4 pl-4 text-xl font-bold">Add Income</p>
+              <p className="mt-4 pl-4 text-xl font-bold">Add Budget</p>
               <div className="flex flex-col items-center px-8 py-10">
                   <label className="block w-full" >
                     <p className="mb-1 text-sm text-gray-600">Description</p>
@@ -47,44 +44,20 @@ function Income() {
                     </select>
                   </label>
                   <div className="mt-8 flex flex-col justify-center space-y-3 sm:flex-row sm:space-x-3 sm:space-y-0">
-                  <button className="whitespace-nowrap rounded-md bg-blue-500 px-4 py-3 font-medium text-white">Add Income</button>
+                  <button className="whitespace-nowrap rounded-md bg-blue-500 px-4 py-3 font-medium text-white">Add Budget</button>
                   
                 </div>
 
               </div>
               </PopoverContent>
-            </Popover>
-
-            <Popover>
-              <PopoverTrigger>Add Income Category</PopoverTrigger>
-              <PopoverContent>
-              <p className="mt-4 pl-4 text-xl font-bold">Add Category</p>
-              <div className="flex flex-col items-center px-8 py-10">
-                  <label className="block w-full" for="name">
-                    <p className="mb-1 text-sm text-gray-600">Enter Category Name</p>
-                    <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-blue-600 focus:ring-1" type="text" placeholder="Enter Name" />
-                  </label>
-                 
-                  <div className="mt-8 flex flex-col justify-center space-y-3 sm:flex-row sm:space-x-3 sm:space-y-0">
-                  <button className="whitespace-nowrap rounded-md bg-blue-500 px-4 py-3 font-medium text-white">Add Category</button>
-               
-                </div>
-
-              </div>
-              </PopoverContent>
-            </Popover>
-
-            
-
-          
+            </Popover> 
           </nav>
         </div>
-
         <Table>
-          <TableCaption>A list of your recent incomes.</TableCaption>
+          <TableCaption>A list of your budgets.</TableCaption>
           <TableHeader>
             <TableRow>
-              <TableHead className="w-[100px]">Incomes</TableHead>
+              <TableHead className="w-[100px]">Budgets</TableHead>
               <TableHead>Status</TableHead>
               <TableHead>Method</TableHead>
               <TableHead className="text-right">Amount</TableHead>
@@ -93,16 +66,16 @@ function Income() {
   <TableBody>
     <TableRow>
       <TableCell className="font-medium">INV001</TableCell>
-      <TableCell>Paid</TableCell>
+      <TableCell>Overdue</TableCell>
       <TableCell>Credit Card</TableCell>
       <TableCell className="text-right">$250.00</TableCell>
     </TableRow>
   </TableBody>
 </Table>
-
+        </div>
+        
       </div>
-    </div>
   )
 }
 
-export default Income
+export default Budget;
