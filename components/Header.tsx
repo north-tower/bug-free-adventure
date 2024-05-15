@@ -24,7 +24,9 @@ function Header() {
       <li className="lg:mr-12"><p className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Expenses</p></li>
       </Link>
       <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Income</a></li>
-      <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Invoices</a></li>
+      <Link href={"/invoice"} prefetch={false}>
+      <li className="lg:mr-12"><p className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" >Invoices</p></li>
+      </Link>
       <li className="lg:mr-12"><a className="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2" href="#">Budgets</a>
       </li>
     </ul>
