@@ -60,7 +60,7 @@ function Income() {
               <PopoverContent>
               <p className="mt-4 pl-4 text-xl font-bold">Add Category</p>
               <div className="flex flex-col items-center px-8 py-10">
-                  <label className="block w-full" for="name">
+                  <label className="block w-full" >
                     <p className="mb-1 text-sm text-gray-600">Enter Category Name</p>
                     <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-blue-600 focus:ring-1" type="text" placeholder="Enter Name" />
                   </label>

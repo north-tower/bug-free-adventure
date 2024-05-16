@@ -15,7 +15,7 @@ function Header() {
         <input type="checkbox" className="peer hidden" id="navbar-open" />
         <label
           className="absolute top-5 right-5 cursor-pointer lg:hidden"
-          for="navbar-open"
+        
         >
           <svg
             className="h-7 w-7"

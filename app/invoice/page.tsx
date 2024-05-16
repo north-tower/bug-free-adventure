@@ -24,11 +24,11 @@ function Invoice(){
               <PopoverContent>
               <p className="mt-4 pl-4 text-xl font-bold">Add Items</p>
               <div className="flex flex-col items-center px-8 py-10">
-                  <label className="block w-full" for="name">
+                  <label className="block w-full">
                     <p className="mb-1 text-sm text-gray-600">Description</p>
                     <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-blue-600 focus:ring-1" type="text" placeholder="Enter Description" />
                   </label>
-                  <label className="block w-full" for="name">
+                  <label className="block w-full">
                     <p className="mb-1 text-sm text-gray-600">Enter Amount</p>
                     <input className="w-full rounded-md border bg-white py-2 px-2 outline-none ring-blue-600 focus:ring-1" type="text" placeholder="Enter Amount" />
                   </label>
@@ -67,17 +67,17 @@ function Invoice(){
     <p className="text-gray-400">Complete your invoice by providing the customer details.</p>
     <div className="">
       
-      <label for="card-holder" className="mt-4 mb-2 block text-sm font-medium">Customer Name</label>
+      <label  className="mt-4 mb-2 block text-sm font-medium">Customer Name</label>
       <div className="relative">
         <input type="text" id="card-holder" name="card-holder" className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="full name here" />
         
       </div>
-      <label for="card-holder" className="mt-4 mb-2 block text-sm font-medium">Customer Address</label>
+      <label  className="mt-4 mb-2 block text-sm font-medium">Customer Address</label>
       <div className="relative">
         <input type="text" id="card-holder" name="card-holder" className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Enter Address here" />
         
       </div>
-      <label for="card-holder" className="mt-4 mb-2 block text-sm font-medium">Billing Preferences</label>
+      <label  className="mt-4 mb-2 block text-sm font-medium">Billing Preferences</label>
       <div className="relative">
         <input type="text" id="card-holder" name="card-holder" className="w-full rounded-md border border-gray-200 px-4 py-3 pl-11 text-sm uppercase shadow-sm outline-none focus:z-10 focus:border-blue-500 focus:ring-blue-500" placeholder="Bill preferences" />
         
